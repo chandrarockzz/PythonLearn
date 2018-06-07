@@ -1,0 +1,22 @@
+Index: HelloWorld.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- HelloWorld.py	(revision 02ae1ac15858a079a3c6240b6356936161ebb0c4)
++++ HelloWorld.py	(date 1528368910321)
+@@ -173,4 +173,12 @@
+     i = i+1
+     if i == 4:
+         continue
+-    print(i)
+\ No newline at end of file
++    print(i)
++
++i = 0
++while i < 100:
++    i = i+1
++    if i == 50:
++        continue
++    print(i)
++
