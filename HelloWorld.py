@@ -174,3 +174,11 @@ while i < 6:
     if i == 4:
         continue
     print(i)
+
+i = 0
+while i < 100:
+    i = i+1
+    if i == 50:
+        continue
+    print(i)
+
